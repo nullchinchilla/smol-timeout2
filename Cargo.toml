@@ -1,19 +1,19 @@
 [package]
-name = "smol-timeout"
+name = "smol-timeout2"
 description = "A way to poll a future until it or a timer completes."
 version = "0.6.0"
-homepage = "https://github.com/r3v2d0g/smol-timeout"
-repository = "https://github.com/r3v2d0g/smol-timeout"
-documentation = "https://docs.rs/smol-timeout"
+repository = "https://github.com/nullchinchilla/smol-timeout2"
+homepage = "https://github.com/nullchinchilla/smol-timeout2"
+documentation = "https://docs.rs/smol-timeout2"
 keywords = ["async", "await", "future", "futures"]
 categories = ["asynchronous", "concurrency"]
 readme = "README.md"
 license = "MPL-2.0"
 authors = ["Matthieu Le brazidec (r3v2d0g) <r3v2d0g@jesus.gg>"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-async-io = "1.1"
+async-io = "2"
 pin-project-lite = "0.1"
 
 [dev-dependencies]
